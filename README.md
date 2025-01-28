@@ -7,7 +7,7 @@ This C program implements a Reverse Polish Notation (RPN) calculator. It evaluat
 ## Key Features
 
 - **RPN Evaluation**: Evaluates arithmetic expressions written in Reverse Polish Notation.
-- **Basic Arithmetic**: Supports operations such as addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`), modulo (`%`), and exponentiation (`^`).
+- **Basic Arithmetic**: Supports operations such as addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`), modulo (`%`), exponentiation (`^`), unary plus(`+`) and minus (`-`).
 - **Error Handling**: Gracefully handles common errors such as division by zero and invalid operators.
 - **Modular Design**: The program is split into multiple modules, making it easy to extend and maintain.
 - **Parenthesis support**: The calculator will take into account any parenthesis present in the expression and will produce an error if they aren't match correctly.
